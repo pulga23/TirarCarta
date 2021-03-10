@@ -27,7 +27,7 @@ public class TirarCarta : MonoBehaviour
         {
             //novacarta();
             //Escolha do Naipe
-            NumNaipe = Random.Range(1, 4);
+            NumNaipe = Random.Range(1, 5); //escolher numeros aleatorios entre 1 e 4
 
             if (NumNaipe == 1)
             {
@@ -47,7 +47,7 @@ public class TirarCarta : MonoBehaviour
             }
 
             //Escolha do número ou Figura e imprime a carta para a consola
-            NumFigura = Random.Range(2, 14);
+            NumFigura = Random.Range(2, 15); //escolher numeros aleatorios entre 2 e 14
 
             if (NumFigura <= 10)
             {
